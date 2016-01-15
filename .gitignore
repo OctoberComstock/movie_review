@@ -15,3 +15,12 @@
 /log/*
 !/log/.keep
 /tmp
+/secrets.yml
+
+# Ignore Spring Directory
+/spring/
+# Ignore application configuration
+/config/application.yml
+
+# CarrierWave image
+public/uploads
